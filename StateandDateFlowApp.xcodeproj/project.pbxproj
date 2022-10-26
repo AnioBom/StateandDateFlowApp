@@ -11,6 +11,11 @@
 		049FFC4129093DD300B1AC76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC4029093DD300B1AC76 /* ContentView.swift */; };
 		049FFC4329093DD400B1AC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FFC4229093DD400B1AC76 /* Assets.xcassets */; };
 		049FFC4629093DD400B1AC76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FFC4529093DD400B1AC76 /* Preview Assets.xcassets */; };
+		049FFC4D29093E1B00B1AC76 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC4C29093E1B00B1AC76 /* ButtonView.swift */; };
+		049FFC5129095F1C00B1AC76 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC5029095F1C00B1AC76 /* TimeCounter.swift */; };
+		049FFC532909647400B1AC76 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC522909647400B1AC76 /* UserManager.swift */; };
+		049FFC55290964D200B1AC76 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC54290964D200B1AC76 /* RegisterView.swift */; };
+		049FFC572909663E00B1AC76 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FFC562909663E00B1AC76 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		049FFC4029093DD300B1AC76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		049FFC4229093DD400B1AC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049FFC4529093DD400B1AC76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049FFC4C29093E1B00B1AC76 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		049FFC5029095F1C00B1AC76 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		049FFC522909647400B1AC76 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		049FFC54290964D200B1AC76 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		049FFC562909663E00B1AC76 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				049FFC3E29093DD300B1AC76 /* StateandDateFlowAppApp.swift */,
+				049FFC562909663E00B1AC76 /* StarterView.swift */,
 				049FFC4029093DD300B1AC76 /* ContentView.swift */,
+				049FFC4C29093E1B00B1AC76 /* ButtonView.swift */,
+				049FFC5029095F1C00B1AC76 /* TimeCounter.swift */,
+				049FFC522909647400B1AC76 /* UserManager.swift */,
+				049FFC54290964D200B1AC76 /* RegisterView.swift */,
 				049FFC4229093DD400B1AC76 /* Assets.xcassets */,
 				049FFC4429093DD400B1AC76 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049FFC572909663E00B1AC76 /* StarterView.swift in Sources */,
 				049FFC4129093DD300B1AC76 /* ContentView.swift in Sources */,
 				049FFC3F29093DD300B1AC76 /* StateandDateFlowAppApp.swift in Sources */,
+				049FFC4D29093E1B00B1AC76 /* ButtonView.swift in Sources */,
+				049FFC55290964D200B1AC76 /* RegisterView.swift in Sources */,
+				049FFC532909647400B1AC76 /* UserManager.swift in Sources */,
+				049FFC5129095F1C00B1AC76 /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

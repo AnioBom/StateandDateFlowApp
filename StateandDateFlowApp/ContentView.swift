@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var user: UserManager
+    @StateObject private var timer = TimeCounter()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hi \(user.name)")
+                .font(.largeTitle)
+                .offset(x: 0, y: 100)
+            Text("\(timer.counter)")
+                .font(.title)
+                .padding(.top, 100)
+            Spacer()
+            ButtonView(timer: timer, color: .red)
+            Spacer()
+            //ButtonView(timer: name, color: .blue, name: "LogOut")
         }
         .padding()
     }
